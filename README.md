@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/wVPKb5D.png">
 
-# Array Iterator Methods - Practice
+# Array Iterator Methods Lab
 
 ## Intro
 
@@ -8,11 +8,11 @@ You've been introduced to several very useful array iterator methods such as `fo
 
 The following exercises provide practice using some of them.
 
-**These exercises are not a deliverable.**
+**This lab is a DELIVERABLE.**
 
 ## Set Up
 
-1. Create a HTML/CSS/JS [Repl](https://repl.it) and name it something like "Array Methods Practice".
+1. Create a HTML/CSS/JS [Repl](https://repl.it) and name it "Array Methods Lab".
 
 2. Copy the code below into the repl and complete each exercise.
 
@@ -73,8 +73,8 @@ const people = [
   'Blake, William'
 ];
 
-// Array.prototype.sort()
-// 6. Sort the people array alphabetically by last name
+// Array.prototype.map()
+// 6. Map the people array such that the new array consists of strings with the names formatted as "First Last", e.g., "Becker, Carl" should be mapped to "Carl Becker".
 
 
 
@@ -125,6 +125,10 @@ const comments = [
 
 
 ```
+
+## DELIVERABLE?
+
+Yes, this lab is a deliverable.  Please submit the link to your "Array Methods Lab" repl.
 
 ## Reference
 
