@@ -12,7 +12,7 @@ The following exercises provide practice using some of them.
 
 ## Set Up
 
-1. Create a HTML/CSS/JS [Repl](https://repl.it) and name it "Array Methods Lab".
+1. Create a HTML/CSS/JS [Repl](https://replit.com) and name it "Array Methods Lab".
 
 2. Copy the code below into the repl and complete each exercise.
 
