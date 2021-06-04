@@ -16,10 +16,33 @@ The following exercises provide practice using some of them.
 
 2. Copy the code below into the repl and complete each exercise.
 
+## Instructions
+
+- `console.log` each exercise's answer
+
+- Verify your `console.log` output matches that shown at the bottom.
+
+## Suggestion
+
+Be sure to stub up the skeleton of the code.  Then you can "flesh" it out.
+
+For example, if asked to find a game object with a name of 'Mastermind' in a games array:
+
+```js
+// Stub up the skeleton of the code...
+const mastermind = toys.find(toy => );
+```
+
+Then, flesh out the callback function...
+
+```js
+const mastermind = toys.find(toy => toy.name === 'Mastermind');
+```
+
 ## Exercises
 
 ```js
-// Some data we can work with
+
 const inventors = [
   { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
   { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
@@ -46,7 +69,7 @@ const inventors = [
 
 
 // Array.prototype.sort()
-// 3. Sort the inventors by birth date (year property), oldest to youngest
+// 3. Sort the inventors by birth date (year property), in ascending order
 
 
 
@@ -57,6 +80,7 @@ const inventors = [
 
 // Array.prototype.reduce()
 // 5. How many years did all the inventors live?
+
 
 
 
@@ -76,6 +100,8 @@ const people = [
 
 // Array.prototype.map()
 // 6. Map the people array such that the new array consists of strings with the names formatted as "First Last", e.g., "Becker, Carl" should be mapped to "Carl Becker".
+// Hint: As a start, consider using the String.prototype.split method to "split" the string using ', ' as the separator
+
 
 
 
@@ -85,8 +111,8 @@ const data = [
 ];
 
 // Array.prototype.reduce()
-// 7. Count the number of instances for each of the data items.
-// Hint:  Return an object where the keys are 'car', 'truck', etc. and the values are the count.
+// 7. Count the number of instances for each of the data items. The reduce should return an object where the keys are 'car', 'truck', etc. and the values are the count.
+// Hint: Since you want to return an object, be sure to pass an empty {} for the initial value of the "accumulator".
 
 
 
@@ -125,6 +151,97 @@ const comments = [
 
 
 
+```
+
+## Verify `console.log` Output
+
+```
+[ { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+  { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 } ]
+
+[ { first: 'Albert', last: 'Einstein' },
+  { first: 'Isaac', last: 'Newton' },
+  { first: 'Galileo', last: 'Galilei' },
+  { first: 'Marie', last: 'Curie' },
+  { first: 'Johannes', last: 'Kepler' },
+  { first: 'Nicolaus', last: 'Copernicus' },
+  { first: 'Max', last: 'Planck' },
+  { first: 'Katherine', last: 'Blodgett' },
+  { first: 'Ada', last: 'Lovelace' },
+  { first: 'Sarah E.', last: 'Goode' },
+  { first: 'Lise', last: 'Meitner' },
+  { first: 'Hanna', last: 'Hammarström' } ]
+
+[ { first: 'Nicolaus',
+    last: 'Copernicus',
+    year: 1473,
+    passed: 1543 },
+  { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+  { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
+  { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
+  { first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 },
+  { first: 'Hanna', last: 'Hammarström', year: 1829, passed: 1909 },
+  { first: 'Sarah E.', last: 'Goode', year: 1855, passed: 1905 },
+  { first: 'Max', last: 'Planck', year: 1858, passed: 1947 },
+  { first: 'Marie', last: 'Curie', year: 1867, passed: 1934 },
+  { first: 'Lise', last: 'Meitner', year: 1878, passed: 1968 },
+  { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
+  { first: 'Katherine', last: 'Blodgett', year: 1898, passed: 1979 } ]
+
+{ first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 }
+
+861
+
+[ 'Carl Becker',
+  'Samuel Beckett',
+  'Mick Beddoes',
+  'Henry Beecher',
+  'Ludwig Beethoven',
+  'Menachem Begin',
+  'Hilaire Belloc',
+  'Saul Bellow',
+  'Robert Benchley',
+  'Peter Benenson',
+  'David Ben-Gurion',
+  'Walter Benjamin',
+  'Tony Benn',
+  'Chester Bennington',
+  'Leana Benson',
+  'Silas Bent',
+  'Lloyd Bentsen',
+  'Ric Berger',
+  'Ingmar Bergman',
+  'Luciano Berio',
+  'Milton Berle',
+  'Irving Berlin',
+  'Eric Berne',
+  'Sandra Bernhard',
+  'Yogi Berra',
+  'Halle Berry',
+  'Wendell Berry',
+  'Erin Bethea',
+  'Aneurin Bevan',
+  'Ken Bevel',
+  'Joseph Biden',
+  'Ambrose Bierce',
+  'Steve Biko',
+  'Josh Billings',
+  'Frank Biondo',
+  'Augustine Birrell',
+  'Elk Black',
+  'Robert Blair',
+  'Tony Blair',
+  'William Blake' ]
+
+{ car: 5, truck: 3, bike: 2, walk: 2, van: 2 }
+
+true
+
+false
+
+{ text: 'Super good', id: 823423 }
+
+3
 ```
 
 ## DELIVERABLE?
