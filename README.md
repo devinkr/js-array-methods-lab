@@ -46,11 +46,12 @@ const inventors = [
 
 
 // Array.prototype.sort()
-// 3. Sort the inventors by birthdate, oldest to youngest
+// 3. Sort the inventors by birth date (year property), oldest to youngest
 
 
 
-// 4. Sort the inventors by years lived from shortest to longest lived
+// Array.prototype.find()
+// 4. Find the inventor object with the first name of 'Ada'
 
 
 
