@@ -137,3 +137,7 @@ const comments = [
 ## Reference
 
 [Array Reference on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+## Attribution
+
+Adapted from a resource created by Jim Clark.
