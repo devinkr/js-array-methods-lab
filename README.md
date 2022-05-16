@@ -130,8 +130,78 @@ const comments = [
 
 ## Verify `console.log` Output
 
-```
+```js
+// 1.
+// Albert Einstein was born in 1879.
+// Isaac Newton was born in 1643.
+// Galileo Galilei was born in 1564.
+// Marie Curie was born in 1867.
+// Johannes Kepler was born in 1571.
+// Nicolaus Copernicus was born in 1473.
+// Max Planck was born in 1858.
+// Katherine Blodgett was born in 1898.
+// Ada Lovelace was born in 1815.
+// Sarah E. Goode was born in 1855.
+// Lise Meitner was born in 1878.
+// Hanna Hammarström was born in 1829.
 
+// 2.
+// [ 76, 84, 78, 67, 59, 70, 89, 81, 37, 50, 90, 80 ]
+
+// 3.
+// [
+//   { first: 'Albert', last: 'Einstein' },
+//   { first: 'Isaac', last: 'Newton' },
+//   { first: 'Galileo', last: 'Galilei' },
+//   { first: 'Marie', last: 'Curie' },
+//   { first: 'Johannes', last: 'Kepler' },
+//   { first: 'Nicolaus', last: 'Copernicus' },
+//   { first: 'Max', last: 'Planck' },
+//   { first: 'Katherine', last: 'Blodgett' },
+//   { first: 'Ada', last: 'Lovelace' },
+//   { first: 'Sarah E.', last: 'Goode' },
+//   { first: 'Lise', last: 'Meitner' },
+//   { first: 'Hanna', last: 'Hammarström' }
+// ]
+
+// 4.
+// [
+//   { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+//   { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 }
+// ]
+
+// 5.
+// [
+//   'Carl Becker',      'Samuel Beckett',
+//   'Mick Beddoes',     'Henry Beecher',
+//   'Ludwig Beethoven', 'Menachem Begin',
+//   'Hilaire Belloc',   'Saul Bellow',
+//   'Robert Benchley',  'Peter Benenson',
+//   'David Ben-Gurion', 'Walter Benjamin',
+//   'Tony Benn',        'Chester Bennington',
+//   'Leana Benson',     'Silas Bent',
+//   'Lloyd Bentsen',    'Ric Berger',
+//   'Ingmar Bergman',   'Luciano Berio',
+//   'Milton Berle',     'Irving Berlin',
+//   'Eric Berne',       'Sandra Bernhard',
+//   'Yogi Berra',       'Halle Berry',
+//   'Wendell Berry',    'Erin Bethea',
+//   'Aneurin Bevan',    'Ken Bevel',
+//   'Joseph Biden',     'Ambrose Bierce',
+//   'Steve Biko',       'Josh Billings',
+//   'Frank Biondo',     'Augustine Birrell',
+//   'Elk Black',        'Robert Blair',
+//   'Tony Blair',       'William Blake'
+// ]
+
+// 6.
+// [
+//   'User 523423 says: Love this!',
+//   'User 823423 says: Super good',
+//   'User 2039842 says: You are the best',
+//   'User 123523 says: Ramen is my fav food ever',
+//   'User 542328 says: Nice Nice Nice!'
+// ]
 ```
 
 ## Reference
