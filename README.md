@@ -206,6 +206,10 @@ const comments = [
 // ]
 ```
 
+## Possible Solutions 
+
+Try not to [peek](https://replit.com/@esin87/SuburbanLongConversions#index.js)!
+
 ## Reference
 
 [Array Reference on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
